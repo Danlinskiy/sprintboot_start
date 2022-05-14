@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+person:
+  - age: 1
+    name: Dan
+  - age: 2
+    name: cabu
+
+shan:
+  name: we
+  age: 3
+
+age: [23, 14, 8]
+
+tempDir: /temp
+
+tempLocationDir: ${tempDir}/location
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 530930
